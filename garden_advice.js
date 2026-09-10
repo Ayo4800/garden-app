@@ -3,7 +3,7 @@ let season = prompt("Enter the season:"); // Prompt the user to enter the curren
 let plantType = prompt("Enter the plant type:"); // Prompt the user to enter the plant type (e.g., flower, vegetable)
 
 // Variable to hold gardening advice
-let advice = "";
+let advice = getSeasonAdvice(season);
 
 // Determine advice based on the season
 function getSeasonAdvice(season) {
